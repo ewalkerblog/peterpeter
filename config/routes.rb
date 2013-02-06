@@ -1,4 +1,8 @@
 OurTestApp::Application.routes.draw do
+  get "mypage/peterpan"
+  
+  root :to => 'mypage#peterpan'
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
